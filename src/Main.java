@@ -18,5 +18,14 @@ public class Main {
         // System.out.println("Student Name: " + s1.getName());
 
         System.out.println("\nAssignment Status: Check your Git commits before pushing!");
+   
+        // Create a Student object
+        Student student1 = new Student("Ali", 12345);
+
+        Student student2 = new Student("kalid", 67890);
+        // Print student details
+        System.out.println("--- Student Information ---");
+        System.out.println("Student 1: " + student1.getName());
+        System.out.println("Student 2: " + student2.getName());
     }
 }
